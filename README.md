@@ -1,2 +1,2 @@
 # vechiledetails
-A basic website create of a freelancer client for his school project.
+A basic website create for a freelancer client for his school project.
