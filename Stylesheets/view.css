@@ -1,0 +1,96 @@
+.login-btn {
+  position: absolute;
+  right: 0;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+.login-btn a {
+  text-decoration: none;
+  background: green;
+  height: 40px;
+  width: 70px;
+  font-size: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  letter-spacing: 2px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login-btn a:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border: 0;
+}
+.login {
+  transform: translateY(100px);
+}
+.logout a{
+background: red;
+}
+.view-table {
+  display: grid;
+  justify-content: center;
+  padding: 30px;
+}
+.view-table table,
+th,
+td {
+  border-collapse: collapse;
+  text-align: left;
+  table-layout: fixed;
+  padding: 8px 30px;
+  width: 100%;
+  font-size: 19px;
+}
+.view-table th {
+  color: #61c232;
+}
+.view-table tr:hover {
+  background-color: #000000;
+}
+.view-table tr:hover td {
+  font-size: 20px;
+}
+.view-table th,
+td {
+  border-bottom: 2px solid #ddd;
+}
+@media (max-width: 700px) {
+  body {
+    height: 100vh;
+  }
+  .login {
+    transform: translateY(70px);
+  }
+  .view-table td {
+    display: block;
+    border-bottom: none;
+    width: 90%;
+  }
+  .view-table tr {
+    border: 1px solid #4d4d4d;
+    padding-top: 20px;
+  }
+}
+@media (max-height: 850px) {
+  .background {
+    height: 105vh;
+  }
+}
+@media (max-height: 710px) {
+  .background {
+    height: 130vh;
+  }
+}
+@media (max-height: 650px) {
+  .background {
+    height: 140vh;
+  }
+}
+@media (max-height: 600px) {
+  .background {
+    height: 150vh;
+  }
+}

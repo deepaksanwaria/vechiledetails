@@ -9,26 +9,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Stylesheets/style.css">
-    <title>Document</title>
+    <title>Homepage</title>
 </head>
 
 <body>
     <div class="background"></div>
     <div class="login-btn">
-        <button href="#">Login</button>
+        <a href="login.php">Login</a>
     </div>
     <div class="content">
         <div class="head">
             <h1>VIN LOOKUP</h1>
         </div>
         <div class="Search">
-            <form action="" method="get">
+            <form action="view.php" method="GET">
                 <div class="item-grp">
-                <input type="text" name="" id="" placeholder="Enter You VIN Number  ex. SCBFR7ZA5CC072256" maxlength="17">
-                <input type="button">
-            
-            </div>
+                    <input type="text" name="vin" id="" placeholder="Enter You VIN Number  ex. SCBFR7ZA5CC072256"
+                        maxlength="17">
+                    <input type="submit" value=""> 
+                    <!-- If Button is clicked it redirect to view.php page with VIN -->
+
+                </div>
             </form>
+        </div>
+        <div class="find_vin">
+            <a href="Media/vin-find.jpg" target="_blank">Where to find VIN number?</a>
         </div>
     </div>
 </body>

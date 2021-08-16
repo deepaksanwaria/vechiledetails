@@ -18,25 +18,26 @@
   position: absolute;
   right: 0;
   padding-right: 10px;
-  padding-top: 10px;
+  padding-top: 20px;
 }
-.login-btn button {
-    background: green;
-    height: 40px;
-    width: 70px;
-    font-size:20px;
-    padding-right: 2px;
-    padding-left: 2px;
-    color: #fff;
-    letter-spacing: 2px;
-    border: 0;
-    border-radius: 5px;
-    cursor: pointer;
+.login-btn a {
+  text-decoration: none;
+  background: green;
+  height: 40px;
+  width: 70px;
+  font-size: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  letter-spacing: 2px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
 }
-.login-btn button:hover{
-    transform: scale(1.1);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    border: 0;
+.login-btn a:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border: 0;
 }
 .content {
   margin: auto;
@@ -70,7 +71,7 @@ input[type="text"] {
   font-size: 1.5em;
   padding: 15px;
 }
-input[type="button"] {
+input[type="submit"] {
   background-image: url(../Media/search.png);
   display: inline-block;
   vertical-align: bottom;
@@ -91,48 +92,55 @@ input[type="button"] {
   border: none;
   cursor: pointer;
 }
-input:focus{
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+input:focus {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-@media(max-width:1250px){
-    .content .head{
-        margin-top: 20% !important;
-    }
-    .content .head h1{
-        font-size: 7em;
-    }  
+.find_vin {
+  margin-top: 20px;
 }
-@media(max-width:770px){
-    .content .head{
-        margin-top: 20% !important;
-    }
-    .content .head h1{
-        font-size: 8em;
-    }  
+.find_vin a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
 }
-@media(max-width:620px){
-    .content .head{
-        margin-top: 20% !important;
-    }
-    .content .head h1{
-        font-size: 6em;
-    }  
+@media (max-width: 1250px) {
+  .content .head {
+    margin-top: 20% !important;
+  }
+  .content .head h1 {
+    font-size: 7em;
+  }
 }
-@media(max-width:500px) {
-    .content .head{
-        margin-top: 50% !important;
-    }
-    .content .head h1{
-        font-size: 4em;
-    }
-    
+@media (max-width: 770px) {
+  .content .head {
+    margin-top: 20% !important;
+  }
+  .content .head h1 {
+    font-size: 8em;
+  }
 }
-@media(max-width:350px) {
-    .content .head{
-        margin-top: 50% !important;
-    }
-    .content .head h1{
-        font-size: 3em;
-    }
-    
+@media (max-width: 620px) {
+  .content .head {
+    margin-top: 20% !important;
+  }
+  .content .head h1 {
+    font-size: 6em;
+  }
+}
+@media (max-width: 500px) {
+  .content .head {
+    margin-top: 50% !important;
+  }
+  .content .head h1 {
+    font-size: 4em;
+  }
+}
+@media (max-width: 350px) {
+  .content .head {
+    margin-top: 50% !important;
+  }
+  .content .head h1 {
+    font-size: 3em;
+  }
 }
