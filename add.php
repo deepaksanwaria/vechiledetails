@@ -14,16 +14,16 @@
         <a href="logout.php">Logout</a>
     </div>
 <div class="login">
-        <h1>Add Vechile</h1>
+        <h1>Add Vehicle</h1>
         <form action="" method="POST">
             <input type="text" name="vin"  placeholder="Enter VIN Number" autocomplete="off">
-            <input type="text" name="manufacturer"  placeholder="Enter Manufactruing Company" autocomplete="off">
+            <input type="text" name="manufacturer"  placeholder="Enter Manufacturing Company" autocomplete="off">
             <input type="text" name="model"  placeholder="Enter Model" autocomplete="off">
             <input type="text" name="year"  placeholder="Enter Year Of Manufacturing" autocomplete="off">
             <input type="text" name="fuel"  placeholder="Enter Fuel Type" autocomplete="off">
-            <input type="text" name="milage"  placeholder="Enter Milage in Km/l" autocomplete="off">
+            <input type="text" name="milage"  placeholder="Enter Mileage in Km/l" autocomplete="off">
             <input type="text" name="displace"  placeholder="Enter Engine Displacement" autocomplete="off">
-            <input type="text" name="cly"  placeholder="Enter Number of Clyinder" autocomplete="off">
+            <input type="text" name="cly"  placeholder="Enter Number of Cylinder" autocomplete="off">
             <input type="submit" name="submit" value="Login">
         </form>
     </div>  
