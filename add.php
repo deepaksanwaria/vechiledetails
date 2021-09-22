@@ -24,7 +24,7 @@
             <input type="text" name="milage"  placeholder="Enter Mileage in Km/l" autocomplete="off">
             <input type="text" name="displace"  placeholder="Enter Engine Displacement" autocomplete="off">
             <input type="text" name="cly"  placeholder="Enter Number of Cylinder" autocomplete="off">
-            <input type="submit" name="submit" value="Login">
+            <input type="submit" name="submit" value="ADD">
         </form>
     </div>  
 </body>
